@@ -15,7 +15,7 @@ Currently, two official plugins are available:
 4. /password-reset --> Verify user email and send password reset token with url. [ Required : email ]
 5. /verify-token/:passResetToken  --> Verify token and redirect to update password page.
 6. /password-reset/:passResetToken --> Update new Password. [ Required : newPassword ]
-
-PRIVATE-ROUTE:
+  
+   PRIVATE-ROUTE:
 7. /user --> Get logged in user detail.
 8. /logout --> Logout user by deleting auth-Token from header.
