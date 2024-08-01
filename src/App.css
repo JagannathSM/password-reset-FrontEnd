@@ -1,0 +1,11 @@
+body{
+    padding: 5px;
+    background: linear-gradient(to right, #e1eec3, #f05053);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root{
+    width: 100%;
+}

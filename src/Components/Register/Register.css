@@ -1,0 +1,61 @@
+.Register_Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.Register_Success_Box{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 3px 10px 3px gray;
+  background-color: #deebf7;
+  border-style: none;
+}
+
+.Register_Box {
+  margin: 8px;
+  width: 30ch;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 3px 10px 3px gray;
+  background-color: #deebf7;
+  border-style: none;
+}
+
+.Register_header {
+  color: rgb(12, 12, 12);
+  margin: 3px 2px;
+  text-align: center;
+  margin: 5px 0px;
+  text-transform: uppercase;
+}
+
+.Register_Error {
+  color: red;
+  margin: 3px 2px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.Register_Success_Msg{
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    text-shadow: -1px -2px 3px gray;
+    color: #090f64b8;
+}

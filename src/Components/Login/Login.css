@@ -1,0 +1,38 @@
+.Login_Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.Login_Box {
+  margin: 8px;
+  width: 30ch;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 3px 10px 3px gray;
+  background-color: #deebf7;
+  border-style: none;
+}
+
+.Login_Error{
+    color: red;
+    margin: 3px 2px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Login_header{
+    color: rgb(12, 12, 12);
+    margin: 3px 2px;
+    text-align: center;
+    margin:5px 0px;
+    text-transform: uppercase;
+}
+
