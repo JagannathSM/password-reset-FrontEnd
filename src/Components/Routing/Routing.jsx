@@ -9,6 +9,7 @@ import NewPassword from "../NewPassword/NewPassword";
 import PrivateRoute from './PrivateRoute';
 import GetUser from '../GetUser/GetUser';
 import Logout from '../Logout/Logout';
+import PassTokenVerify from '../PassTokenVerify/PassTokenVerify';
 
 function Routing() {
   return (
@@ -18,6 +19,7 @@ function Routing() {
         <Route path='/register' element={<Register/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/password-reset' element={<PasswordReset/>}/>
+        <Route path='/verify-token/:passResetToken' element={<PassTokenVerify/>}/>
         <Route path='/password-reset/:passResetToken' element={<NewPassword/>}/>
         <Route element={<PrivateRoute />}>
           <Route path='/user' element={<GetUser/>}/>

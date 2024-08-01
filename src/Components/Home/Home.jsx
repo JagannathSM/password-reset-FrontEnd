@@ -32,7 +32,7 @@ function Home() {
         </Box>
         <Box component="section" sx={{ p: 1,color:"black", width:"100%", display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center"}}>
           <h2 className='Home_Satrt'>Flow Diagram</h2>
-          <div style={{width:"80%"}}>
+          <div style={{ display:"flex",justifyContent:'center',marginBottom:"5px",paddingBottom:"5px",minWidth: "60%"}}>
             <img className='Home_Img' src='/PasswordReset_FlowDiagram.png' alt='Flow Diagram'/>
           </div>
         </Box>

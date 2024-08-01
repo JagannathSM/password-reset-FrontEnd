@@ -1,0 +1,29 @@
+.Pass_Token_Verify{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Pass_Token_Error_Box{
+    border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 3px 10px 3px gray;
+  background-color: #deebf7;
+  border-style: none;
+}
+
+.Pass_Token_Error_Msg{
+    margin: 5px;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  text-shadow: -1px -2px 3px gray;
+  color: #e51739b8;
+}

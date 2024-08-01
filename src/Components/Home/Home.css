@@ -15,7 +15,8 @@
 
 .Home_Img{
     width: 100%;
-    height: auto;
+    min-height: 50vh;
+    max-height: 100vh;
 }
 
 .Home_Error{
